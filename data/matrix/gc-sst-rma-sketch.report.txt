@@ -1,0 +1,121 @@
+#%affymetrix-algorithm-param-apt-engine=ProbesetSummarizeEngine
+#%affymetrix-algorithm-param-apt-program-name=apt-probeset-summarize
+#%affymetrix-algorithm-param-apt-command-line=/opt/apt_2.11.3_linux_64_bit_x86_binaries/bin/apt-probeset-summarize -a gc-sst-rma-sketch -p /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/platform_files/GPL16570/MoGene-2_0-st.pgf -c /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/platform_files/GPL16570/MoGene-2_0-st.clf -b /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/platform_files/GPL16570/MoGene-2_0-st.bgp -m /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/platform_files/GPL16570/MoGene-2_0-st.mps -o /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/matrix /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466543_BXD43.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466544_BXD45.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466545_BXD48.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466546_BXD49.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466547_BXD50.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466548_BXD51.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466549_BXD55.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466550_BXD56.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466551_BXD61.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466552_BXD62.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466553_BXD64.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466554_BXD65.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466555_BXD66.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466556_BXD68.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466557_BXD69.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466558_BXD70.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466559_BXD71.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466560_BXD75.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466561_BXD79.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466562_BXD80.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466563_BXD81.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466564_BXD83.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466565_BXD84.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466566_BXD85.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466567_BXD87.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466568_BXD89.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466569_BXD90.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466570_BXD92.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466571_BXD95.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466572_BXD96.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466573_BXD97.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466574_BXD98.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466575_BXD99.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466576_BXD101.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466577_BXD103.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466578_C57.CEL /work/bxd-fasted-gene-expression-bat-microarray-r1858/data/raw/GSM1466579_DBA.CEL
+#%affymetrix-algorithm-param-apt-exec-guid=1c06fa76-45f5-4d3f-7f06-83b6fee5957c
+#%affymetrix-algorithm-param-apt-analysis-guid=0e59b767-e9a7-4efc-e9cd-9aade9d9cec9
+#%affymetrix-algorithm-param-apt-time-str=Mon May  3 19:00:55 2021
+#%affymetrix-algorithm-param-apt-version=1.20.0 svn://svn.affymetrix.com/apt/projects/apt/branches/APT_1_20_0_BRANCH/sdk/release@58265
+#%affymetrix-algorithm-param-apt-cvs-id=svn://svn.affymetrix.com/apt/projects/apt/branches/APT_1_20_0_BRANCH/sdk/release@58265
+#%affymetrix-algorithm-param-apt-free-mem=28261856870
+#%affymetrix-algorithm-param-apt-opt-do-ps-names=false
+#%affymetrix-algorithm-param-apt-opt-chip-type=MoGene-2_0-st
+#%affymetrix-algorithm-param-apt-opt-probe-count=2598544
+#%affymetrix-algorithm-param-apt-opt-force=false
+#%affymetrix-algorithm-param-apt-opt-precision=5
+#%affymetrix-algorithm-param-apt-opt-out-dir=/work/bxd-fasted-gene-expression-bat-microarray-r1858/data/matrix
+#%affymetrix-algorithm-param-apt-opt-cc-expr-chp-out-dir=
+#%affymetrix-algorithm-param-apt-opt-cc-md-chp-out-dir=
+#%affymetrix-algorithm-param-apt-opt-xda-chp-out-dir=
+#%affymetrix-algorithm-param-apt-opt-cdf-file=
+#%affymetrix-algorithm-param-apt-opt-spf-file=
+#%affymetrix-algorithm-param-apt-opt-pgf-file=MoGene-2_0-st.pgf
+#%affymetrix-algorithm-param-apt-opt-clf-file=MoGene-2_0-st.clf
+#%affymetrix-algorithm-param-apt-opt-bgp-file=MoGene-2_0-st.bgp
+#%affymetrix-algorithm-param-apt-opt-ps-list-file=
+#%affymetrix-algorithm-param-apt-opt-meta-ps-file=MoGene-2_0-st.mps
+#%affymetrix-algorithm-param-apt-opt-qc-groups-file=
+#%affymetrix-algorithm-param-apt-opt-kill-list=
+#%affymetrix-algorithm-param-apt-opt-temp-dir=/work/bxd-fasted-gene-expression-bat-microarray-r1858/data/matrix/temp
+#%affymetrix-algorithm-param-apt-opt-use-disk=true
+#%affymetrix-algorithm-param-apt-opt-diskCache=50
+#%affymetrix-algorithm-param-apt-opt-cel-count=37
+#%affymetrix-algorithm-param-apt-opt-cel-1=GSM1466543_BXD43.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-2=GSM1466544_BXD45.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-3=GSM1466545_BXD48.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-4=GSM1466546_BXD49.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-5=GSM1466547_BXD50.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-6=GSM1466548_BXD51.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-7=GSM1466549_BXD55.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-8=GSM1466550_BXD56.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-9=GSM1466551_BXD61.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-10=GSM1466552_BXD62.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-11=GSM1466553_BXD64.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-12=GSM1466554_BXD65.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-13=GSM1466555_BXD66.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-14=GSM1466556_BXD68.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-15=GSM1466557_BXD69.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-16=GSM1466558_BXD70.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-17=GSM1466559_BXD71.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-18=GSM1466560_BXD75.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-19=GSM1466561_BXD79.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-20=GSM1466562_BXD80.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-21=GSM1466563_BXD81.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-22=GSM1466564_BXD83.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-23=GSM1466565_BXD84.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-24=GSM1466566_BXD85.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-25=GSM1466567_BXD87.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-26=GSM1466568_BXD89.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-27=GSM1466569_BXD90.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-28=GSM1466570_BXD92.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-29=GSM1466571_BXD95.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-30=GSM1466572_BXD96.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-31=GSM1466573_BXD97.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-32=GSM1466574_BXD98.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-33=GSM1466575_BXD99.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-34=GSM1466576_BXD101.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-35=GSM1466577_BXD103.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-36=GSM1466578_C57.CEL
+#%affymetrix-algorithm-param-apt-opt-cel-37=GSM1466579_DBA.CEL
+#%affymetrix-algorithm-param-apt-opt-analysis-name=gc-sst-rma-sketch
+#%affymetrix-algorithm-param-apt-opt-set-analysis-name=
+#%affymetrix-algorithm-param-apt-opt-analysis-spec=gc-correction.algo_rev=4.cel_out=false,scale-intensities.floor=1.low=20.high=50000.ceiling=1000000.low_pct=0.02.high_pct=0.98.gain_lock_pct=0.0.cel_out=false,rma-bg,quant-norm.sketch=-1.bioc=true.lowprecision=false.usepm=true.target=0.doavg=false.subsetmd5=7dfefb9377344d98968164abe628c7f0,pm-only,med-polish.FixFeatureEffect=false.UseInputModel=false.FitFeatureResponse=true.expon=false.attenuate=true.l=0.005.h=-1,expr.genotype=false.strand=false.allele-a=false
+#%affymetrix-algorithm-param-apt-opt-feat-effect-file=
+#%affymetrix-algorithm-param-apt-opt-target-sketch-file=
+#%affymetrix-algorithm-param-apt-opt-do-residuals=false
+#%affymetrix-algorithm-param-apt-opt-do-feature-effects=false
+#%affymetrix-algorithm-param-apt-opt-write-sketch=false
+#%affymetrix-algorithm-param-apt-opt-reference-profile-file=
+#%affymetrix-algorithm-param-apt-opt-write-profile=false
+#%affymetrix-algorithm-param-quantification-name=med-polish
+#%affymetrix-algorithm-param-quantification-version=1.0
+#%affymetrix-algorithm-param-quantification-scale=log2
+#%affymetrix-algorithm-param-quantification-type=signal
+#%guid=7d6a4f8d-547b-425b-6f9c-b12974c7bc71
+cel_files	bgrd_mean	pm_mean	all_probeset_probesets	all_probeset_atoms	all_probeset_mean	all_probeset_stdev	all_probeset_mad_residual_mean	all_probeset_mad_residual_stdev	all_probeset_rle_mean	all_probeset_rle_stdev
+GSM1466543_BXD43.CEL	177.213244	353.913794	41345	770069	7.818426	2.759204	0.508577	0.273815	0.306078	0.335494
+GSM1466544_BXD45.CEL	176.677861	310.366650	41345	770069	7.822428	2.721544	0.552695	0.283362	0.301538	0.333689
+GSM1466545_BXD48.CEL	159.725196	324.378919	41345	770069	7.827394	2.730733	0.515068	0.269705	0.275441	0.303159
+GSM1466546_BXD49.CEL	162.610577	312.363883	41345	770069	7.838440	2.736085	0.531984	0.273297	0.300786	0.341729
+GSM1466547_BXD50.CEL	185.361565	331.695476	41345	770069	7.809041	2.723002	0.528248	0.276065	0.278639	0.323122
+GSM1466548_BXD51.CEL	154.777194	276.102840	41345	770069	7.825964	2.696928	0.599134	0.296519	0.319123	0.345879
+GSM1466549_BXD55.CEL	178.318952	342.205962	41345	770069	7.817559	2.746740	0.496479	0.264990	0.279773	0.334148
+GSM1466550_BXD56.CEL	184.121879	383.841846	41345	770069	7.779855	2.765334	0.487523	0.260849	0.308988	0.349391
+GSM1466551_BXD61.CEL	185.728147	336.737458	41345	770069	7.810961	2.719709	0.505403	0.264959	0.309005	0.365478
+GSM1466552_BXD62.CEL	211.997639	378.148746	41345	770069	7.838788	2.681906	0.503812	0.249461	0.294598	0.321710
+GSM1466553_BXD64.CEL	159.967951	311.854414	41345	770069	7.819543	2.725702	0.514311	0.262379	0.275224	0.307561
+GSM1466554_BXD65.CEL	150.615593	281.393003	41345	770069	7.813729	2.717947	0.562971	0.292950	0.317814	0.401942
+GSM1466555_BXD66.CEL	183.566783	316.274895	41345	770069	7.821458	2.672714	0.541368	0.269239	0.305384	0.345811
+GSM1466556_BXD68.CEL	156.883197	299.181122	41345	770069	7.813029	2.716529	0.537214	0.271824	0.287138	0.338387
+GSM1466557_BXD69.CEL	159.464085	306.202284	41345	770069	7.820634	2.693637	0.529182	0.267001	0.312675	0.354045
+GSM1466558_BXD70.CEL	153.774361	271.461065	41345	770069	7.844923	2.742029	0.567659	0.297904	0.320351	0.438437
+GSM1466559_BXD71.CEL	184.677271	325.454370	41345	770069	7.821357	2.701608	0.520633	0.257026	0.292250	0.326637
+GSM1466560_BXD75.CEL	156.558638	285.688799	41345	770069	7.807113	2.704283	0.559442	0.277745	0.314346	0.370151
+GSM1466561_BXD79.CEL	187.350882	314.397965	41345	770069	7.820078	2.710112	0.528876	0.266619	0.293990	0.327120
+GSM1466562_BXD80.CEL	173.749808	317.445492	41345	770069	7.827018	2.754802	0.534500	0.266940	0.305093	0.339816
+GSM1466563_BXD81.CEL	149.850263	261.825290	41345	770069	7.821560	2.729043	0.567466	0.288640	0.315778	0.384036
+GSM1466564_BXD83.CEL	196.661925	403.792734	41345	770069	7.823396	2.757076	0.563790	0.283900	0.331826	0.353435
+GSM1466565_BXD84.CEL	248.714631	498.926934	41345	770069	7.831828	2.748315	0.423388	0.221404	0.246583	0.285035
+GSM1466566_BXD85.CEL	150.877472	308.887997	41345	770069	7.844266	2.770417	0.534859	0.279650	0.323614	0.396105
+GSM1466567_BXD87.CEL	193.203624	363.731194	41345	770069	7.830065	2.729601	0.534312	0.274850	0.305896	0.344645
+GSM1466568_BXD89.CEL	170.395621	332.532208	41345	770069	7.829067	2.737385	0.498785	0.257705	0.279641	0.311537
+GSM1466569_BXD90.CEL	163.819572	335.619439	41345	770069	7.824016	2.768072	0.516311	0.266618	0.297025	0.335973
+GSM1466570_BXD92.CEL	203.822405	408.547834	41345	770069	7.813325	2.725469	0.488001	0.248998	0.273448	0.303019
+GSM1466571_BXD95.CEL	133.192941	282.524340	41345	770069	7.846459	2.726685	0.574026	0.282548	0.343197	0.393219
+GSM1466572_BXD96.CEL	125.282890	235.339762	41345	770069	7.826454	2.708882	0.609582	0.302211	0.328328	0.356628
+GSM1466573_BXD97.CEL	188.200437	387.625447	41345	770069	7.833276	2.728990	0.483088	0.249252	0.293984	0.341815
+GSM1466574_BXD98.CEL	186.312636	349.100085	41345	770069	7.820117	2.755553	0.500184	0.261955	0.263580	0.295227
+GSM1466575_BXD99.CEL	170.347695	338.774971	41345	770069	7.806870	2.764612	0.568961	0.300877	0.309316	0.342039
+GSM1466576_BXD101.CEL	193.651597	388.146958	41345	770069	7.805906	2.745291	0.470811	0.244617	0.277831	0.323502
+GSM1466577_BXD103.CEL	141.128549	306.608731	41345	770069	7.827506	2.771146	0.530584	0.277967	0.303634	0.327789
+GSM1466578_C57.CEL	202.079325	394.616957	41345	770069	7.848511	2.740760	0.530677	0.269708	0.325588	0.361241
+GSM1466579_DBA.CEL	231.335773	446.521560	41345	770069	7.815910	2.731987	0.450394	0.240724	0.264725	0.366426
